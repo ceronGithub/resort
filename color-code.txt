@@ -1,0 +1,5 @@
+#F09E05 - orange-yellow
+#FFFFFF - white
+#000000 - black
+#F0F1C5 - archipelago
+#BF9264 - beige
