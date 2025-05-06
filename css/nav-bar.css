@@ -1,9 +1,11 @@
 .nav-bar{
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 10%;
     height: 10vh;
-    z-index: 1;    
+    z-index: 1;  
+    float: right;
+    right: 0;  
 }
 
 .nav-bar ul{
@@ -11,21 +13,22 @@
     margin: 0;
     padding: 0;
     overflow: hidden;    
-    background-color: #F0F1C5;
+    background: transparent;
+    backdrop-filter: blur(50px);
 }
 .nav-bar ul li{
-    float: right;   
+    float: right;  
 }
 
 .nav-bar ul li a{
     display: block;    
-    color: black;
+    color: white;
     text-align: center;
-    padding: 23px 16px;
+    padding: 30px 35px;
     text-decoration: none;
 }
 
 .nav-bar ul li:hover a:hover{
-    background-color: #000000;
-    color: white;
+    background-color: #BF9264;
+    color: black;
 }

@@ -1,0 +1,67 @@
+@font-face {
+    font-family: fasthinRegualr;
+    src: url(../fonts/Fasthin/FasthinRegular.ttf);
+}
+
+@font-face {
+    font-family: diamendRegular;
+    src: url(../fonts/diamend/DiamenddemoRegular.otf);
+}
+
+.card-no-design{
+    position: absolute;
+    width: 98%;
+    height: 90vh;    
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px 0px;
+    background: transparent;
+    backdrop-filter: blur(5px);
+}
+
+.card-no-design-header{
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    /* border: 1px solid blue; */
+}
+
+.qoutes{
+    position: relative;
+    font-family: fasthinRegualr;
+    font-size: 70px;
+    top: 10px;
+    padding: 0 5px;
+    white-space: nowrap;
+    color: #F09E05;    
+}
+
+h2{
+    position: absolute; 
+    top: 65%;
+    left: 30%;
+    transform: translate(-20%, -50%);
+    font-family: diamendRegular;
+    
+}
+
+.card-no-design-body{
+    position: absolute;
+    top: 70vh;
+    height: 10vh;
+    width: 100%;    
+}
+
+
+.card-no-design-bottom{
+    position: absolute;
+    top: 65vh;
+    left: 0;
+
+    height: 35vh;
+    width: 100%;    
+}
