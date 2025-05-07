@@ -15,4 +15,5 @@
     height: auto;
     width: 20vw;
     transform: perspective(350px) rotate3D(0, 1, .07, 40deg);
+    transition: transform .5s, .5s ease-in-out;
 }
