@@ -8,30 +8,67 @@
     src: url(../fonts/diamend/DiamenddemoRegular.otf);
 }
 
-.fasthinRegualr-font-justFont{
+@font-face {
+    font-family: helloParisRegular;
+    src: url(../fonts/hello-paris/bold.ttf);
+}
+
+
+.helloParisRegular-font-justFont{
+    font-family: helloParisRegular;    
+}
+
+.helloParisRegular-font-8{
+    font-family: helloParisRegular;
+    font-size: 8px;
+}
+
+.helloParisRegular-font-16{
+    font-family: helloParisRegular;
+    font-size: 16px;
+}
+
+.helloParisRegular-font-24{
+    font-family: helloParisRegular;
+    font-size: 24px;
+}
+
+.helloParisRegular-font-32{
+    font-family: helloParisRegular;
+    font-size: 32px;
+}
+.helloParisRegular-font-70{
+    font-family: helloParisRegular;
+    font-size: 70px;
+}
+
+
+
+
+.fasthinRegular-font-justFont{
     font-family: fasthinRegular;    
 }
 
-.fasthinRegualr-font-8{
+.fasthinRegular-font-8{
     font-family: fasthinRegular;
     font-size: 8px;
 }
 
-.fasthinRegualr-font-16{
+.fasthinRegular-font-16{
     font-family: fasthinRegular;
     font-size: 16px;
 }
 
-.fasthinRegualr-font-24{
+.fasthinRegular-font-24{
     font-family: fasthinRegular;
     font-size: 24px;
 }
 
-.fasthinRegualr-font-32{
+.fasthinRegular-font-32{
     font-family: fasthinRegular;
     font-size: 32px;
 }
-.fasthinRegualr-font-70{
+.fasthinRegular-font-70{
     font-family: fasthinRegular;
     font-size: 70px;
 }
@@ -79,6 +116,8 @@
     color: #F09E05;
 }
 
+
+
 .font-style-italic{
     font-style: italic;
 }
@@ -86,6 +125,9 @@
 .font-style-oblique{
     font-style: oblique;
 }
+
+
+
 
 .font-text-align{
     position: relative;

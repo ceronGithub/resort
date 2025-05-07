@@ -1,0 +1,24 @@
+.logo-circle-video{
+    position: absolute;
+    bottom: 20px;
+    float: right;
+    right: 25px;
+    height: 20vh;
+    width: 10vw;
+    border-radius: 50%;    
+    z-index: 1;   
+}
+.logo-circle-video span:nth-child(1){
+    position: absolute;
+    top: 45%;
+    left: 38%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+.logo-circle-video span:nth-child(2){
+    position: absolute;
+    top: 58%;
+    left: 57%;
+    transform: translate(-50%, -50%); 
+    z-index: 1;  
+}

@@ -33,7 +33,7 @@
 
 .smallImageLeftSide{
     position: absolute;
-    top: 12vh;
+    top: 10vh;
     left: 15vw;
     float: left;
 
@@ -44,7 +44,7 @@
     background-position: center;
     object-fit: cover;    
     transform: perspective(350px) rotate3D(0, 1, 0, 25deg);
-    -webkit-box-reflect: below 2px linear-gradient(transparent, transparent, rgba(0,0,0,0.2));
+    -webkit-box-reflect: below 2px linear-gradient(transparent, transparent, rgba(0,0,0,0.4));
 }
 
 .meduimImageLeftSide{
