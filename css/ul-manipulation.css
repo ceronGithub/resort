@@ -1,25 +1,45 @@
-.ul-column{
+.ul-column-section-2{
+    position: absolute;    
+    top: 50%;
+    left: 30%;
+    padding: 0;
+    margin: 0;
+    transform: translate(-15%,-50%);
+    display: flex;     
+}
+
+.ul-column-section-3{
     position: absolute;    
     top: 50%;
     left: 50%;
     padding: 0;
     margin: 0;
     transform: translate(-50%,-50%);
-    display: flex; 
+    display: flex;     
 }
 
-.ul-column li{
+.ul-column-section-2 ul, .ul-column-section-3 ul{
+    position: absolute;    
+    top: 50%;
+    left: 30%;
+    padding: 0;
+    margin: 0;
+    transform: translate(-15%,-50%);
+    display: flex;     
+}
+
+.ul-column-section-2 li, .ul-column-section-3 li{
     list-style: none;
     margin: 0 15px;
 }
 
-.ul-column li a{    
+.ul-column-section-2 li a, .ul-column-section-3 li a{    
     color: white;       
     text-decoration: none;
     color: black;
 }
 
-.ul-column li .div-container{
+.ul-column-section-2 li .div-container, .ul-column-section-3 li .div-container{
     position: relative;
     top: 50%;
     left: 50%;

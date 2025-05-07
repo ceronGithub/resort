@@ -31,6 +31,10 @@
     font-family: fasthinRegular;
     font-size: 32px;
 }
+.fasthinRegualr-font-70{
+    font-family: fasthinRegular;
+    font-size: 70px;
+}
 
 
 .diamendRegular-font-justFont{
@@ -57,6 +61,11 @@
     font-size: 32px;
 }
 
+.diamendRegular-font-70{
+    font-family: diamendRegular;
+    font-size: 70px;
+}
+
 
 .font-color-white{
     color: white;
@@ -76,4 +85,10 @@
 
 .font-style-oblique{
     font-style: oblique;
+}
+
+.font-text-align{
+    position: relative;
+    top: 10px;
+    padding: 0 5px;
 }

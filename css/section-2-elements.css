@@ -10,7 +10,7 @@
 
 .card-no-design{
     position: absolute;
-    width: 98%;
+    width: 80%;
     height: 90vh;    
 
     top: 50%;
@@ -34,8 +34,8 @@
 .h2-slogan{
     position: absolute;
     top: 65%;
-    left: 30%;
-    transform: translate(-20%, -50%);
+    left: 10%;
+    transform: translate(-2.5%, -50%);
 }
 
 .card-no-design-body{
