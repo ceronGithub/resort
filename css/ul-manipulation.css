@@ -25,34 +25,5 @@
     left: 50%;
     transform: translate(-50%, -50%);
     height: 30vh;
-    width: 20vw;    
+    width: 20vw;        
 }
-
-.ul-column li .div-container:hover{
-    position: relative;
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    height: 60vh;
-    width: 30vw;
-    transition: all .5s ease-in; 
-}
-
-.ul-column li .div-container:not(:hover){
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    height: 30vh;
-    width: 20vw;
-    transition: all .5s ease-out; 
-}
-
-.ul-column li span.text{
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    color: white;
-    z-index: 1;    
-}
-

@@ -9,7 +9,6 @@
 }
 
 
-
 .smallImageUl-zero{
     height: 30vh;
     width: 20vw;
@@ -19,30 +18,32 @@
     object-fit: cover;
 }
 
-.smallImage-ul-li-div-zero-filter-grayscale-60{
-    height: 100%;
-    width: 100%;
+.smallImage-ul-li-div-zero{
+    height: auto;
+    width: 20vw;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    object-fit: cover;
-    filter: grayscale(60%);
+    object-fit: cover; 
+    transform: perspective(350px) rotate3D(0, 1, 0, 15deg);
+    -webkit-box-reflect: below 2px linear-gradient(transparent, transparent, rgba(0,0,0,0.5));   
 }
 
 
 .smallImageLeftSide{
     position: absolute;
-    top: 10vh;
-    left: 10vw;
+    top: 12vh;
+    left: 15vw;
     float: left;
 
-    height: 50vh;
+    height: auto;
     width: 30vw;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    object-fit: cover;  
-    border: 1px solid red;
+    object-fit: cover;    
+    transform: perspective(350px) rotate3D(0, 1, 0, 25deg);
+    -webkit-box-reflect: below 2px linear-gradient(transparent, transparent, rgba(0,0,0,0.2));
 }
 
 .meduimImageLeftSide{

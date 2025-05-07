@@ -30,23 +30,12 @@
     /* border: 1px solid blue; */
 }
 
-.qoutes{
-    position: relative;
-    font-family: fasthinRegualr;
-    font-size: 70px;
-    top: 10px;
-    padding: 0 5px;
-    white-space: nowrap;
-    color: #F09E05;    
-}
 
-h2{
-    position: absolute; 
+.h2-slogan{
+    position: absolute;
     top: 65%;
     left: 30%;
     transform: translate(-20%, -50%);
-    font-family: diamendRegular;
-    
 }
 
 .card-no-design-body{

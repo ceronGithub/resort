@@ -1,0 +1,79 @@
+@font-face {
+    font-family: fasthinRegular;
+    src: url(../fonts/Fasthin/FasthinRegular.ttf);
+}
+
+@font-face {
+    font-family: diamendRegular;
+    src: url(../fonts/diamend/DiamenddemoRegular.otf);
+}
+
+.fasthinRegualr-font-justFont{
+    font-family: fasthinRegular;    
+}
+
+.fasthinRegualr-font-8{
+    font-family: fasthinRegular;
+    font-size: 8px;
+}
+
+.fasthinRegualr-font-16{
+    font-family: fasthinRegular;
+    font-size: 16px;
+}
+
+.fasthinRegualr-font-24{
+    font-family: fasthinRegular;
+    font-size: 24px;
+}
+
+.fasthinRegualr-font-32{
+    font-family: fasthinRegular;
+    font-size: 32px;
+}
+
+
+.diamendRegular-font-justFont{
+    font-family: diamendRegular;    
+}
+
+.diamendRegular-font-8{
+    font-family: diamendRegular;
+    font-size: 8px;
+}
+
+.diamendRegular-font-16{
+    font-family: diamendRegular;
+    font-size: 16px;
+}
+
+.diamendRegular-font-24{
+    font-family: diamendRegular;
+    font-size: 24px;
+}
+
+.diamendRegular-font-32{
+    font-family: diamendRegular;
+    font-size: 32px;
+}
+
+
+.font-color-white{
+    color: white;
+}
+
+.font-color-black{
+    color: black;
+}
+
+.font-color-orangeGold{
+    color: #F09E05;
+}
+
+.font-style-italic{
+    font-style: italic;
+}
+
+.font-style-oblique{
+    font-style: oblique;
+}
