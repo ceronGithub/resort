@@ -1,3 +1,4 @@
+/* start - index.html */
 .ul-column-section-2{
     position: absolute;    
     top: 50%;
@@ -18,7 +19,37 @@
     display: flex;     
 }
 
-.ul-column-section-2 ul, .ul-column-section-3 ul{
+.ul-column-section-4{
+    position: absolute;
+    width: 80%;
+    height: 10vh; 
+    top: 20%;
+    left: 50%;
+    padding: 0;
+    margin: 0;
+    transform: translate(-50%,-50%);
+    display: flex;  
+    /* border: 2px solid red;    */
+}
+
+.ul-column-section-4-icons{
+    position: absolute;
+    width: 100%;
+    height: 10vh; 
+    top: 85%;
+    left: 50%;
+    padding: 0;
+    margin: 0;
+    transform: translate(-50%,-50%);
+    display: flex;  
+    /* border: 2px solid red;    */
+}
+
+/* end - index.html */
+
+.ul-column-section-2 ul, 
+.ul-column-section-3 ul, 
+.ul-column-section-4 ul{
     position: absolute;    
     top: 50%;
     left: 30%;
@@ -27,18 +58,72 @@
     transform: translate(-15%,-50%);
     display: flex;     
 }
+.ul-column-section-4-icons ul{
+    position: absolute;    
+    top: 50%;
+    left: 50%;
+    padding: 0;
+    margin: 0;
+    transform: translate(-50%,-50%);
+    display: flex;
+}
 
-.ul-column-section-2 li, .ul-column-section-3 li{
+.ul-column-section-2 li, 
+.ul-column-section-3 li, 
+.ul-column-section-4 li{
     list-style: none;
     margin: 0 15px;
 }
 
-.ul-column-section-2 li a, .ul-column-section-3 li a{    
-    color: white;       
-    text-decoration: none;    
+.ul-column-section-4-icons li{
+    list-style: none;
+    margin: 0 10px;    
+    line-height: 40px;
+    font-size: 18px;
 }
 
-.ul-column-section-2 li .div-container, .ul-column-section-3 li .div-container{
+.ul-column-section-2 li a, 
+.ul-column-section-3 li a, 
+.ul-column-section-4 li a,
+.ul-column-section-4-icons li a{    
+    color: white;       
+    text-decoration: none;
+}
+
+.ul-column-section-4-icons li a{
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;    
+    transition: .5s ease-in-out;
+    box-shadow: 0 5px 4px rgba(0, 0, 0, .5);
+}
+
+.ul-column-section-4-icons li a:hover{
+    transform: translate(0, -10px);
+}
+
+.ul-column-section-4-icons li:nth-child(3) a:hover{
+    background-color: #0099FF;
+}
+
+.ul-column-section-4-icons li:nth-child(5) a:hover{
+    background-color: #1877F2;
+}
+.ul-column-section-4-icons li:nth-child(6) a:hover{
+    background-color: #E4405F;
+}
+.ul-column-section-4-icons li:nth-child(7) a:hover{
+    background-color: #EE1D51;
+}
+
+.ul-column-section-2 li .div-container, 
+.ul-column-section-3 li .div-container, 
+.ul-column-section-4 li .div-container,
+.ul-column-section-4-icons .div-container{
     position: relative;
     top: 50%;
     left: 50%;
@@ -46,3 +131,19 @@
     height: 30vh;
     width: 20vw;        
 }
+
+.ul-column-section-4-icons .fa-solid{
+    font-size: 25px;
+    line-height: 40px;
+    transition: .6s;
+    color: #000;
+}
+
+.ul-column-section-4-icons .fa-brands{
+    font-size: 25px;
+    line-height: 43px;
+    transition: .6s;
+    color: #000;
+}
+
+

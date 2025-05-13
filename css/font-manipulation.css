@@ -42,6 +42,11 @@
     font-size: 70px;
 }
 
+.helloParisRegular-font-170{
+    font-family: helloParisRegular;
+    font-size: 170px;
+}
+
 
 
 
@@ -81,6 +86,11 @@
 .diamendRegular-font-8{
     font-family: diamendRegular;
     font-size: 8px;
+}
+
+.diamendRegular-font-12{
+    font-family: diamendRegular;
+    font-size: 12px;
 }
 
 .diamendRegular-font-16{
