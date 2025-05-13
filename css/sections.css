@@ -3,9 +3,17 @@
     width: 100%;
     height: 100vh;
     background: rgb(255, 255, 255);
+    overflow: hidden;
 }
 
-.sections0
+.sections-black-bg{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: rgb(0, 0, 0);
+}
+
+.sections-h-200
 {
     position: relative;
     width: 100%;
@@ -13,9 +21,9 @@
     background: rgb(255, 255, 255);
 }
 
-.sections-black-bg{
+.sections-h-110{
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 110vh;
     background: rgb(0, 0, 0);
 }

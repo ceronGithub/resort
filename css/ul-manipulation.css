@@ -35,8 +35,7 @@
 
 .ul-column-section-2 li a, .ul-column-section-3 li a{    
     color: white;       
-    text-decoration: none;
-    color: black;
+    text-decoration: none;    
 }
 
 .ul-column-section-2 li .div-container, .ul-column-section-3 li .div-container{

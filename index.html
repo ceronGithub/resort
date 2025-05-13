@@ -13,7 +13,7 @@
 
     <!-- homepage -->
     <link rel="stylesheet" href="css/homepage.css">
-    <link rel="stylesheet" href="css/homepage-video.css">
+    <link rel="stylesheet" href="css/video-manipulation.css">
 
     <!-- card  -->
     <link rel="stylesheet" href="css/card.css">    
@@ -35,12 +35,15 @@
 
     <!-- logo-manipulation -->
      <link rel="stylesheet" href="css/logo-manipulation.css">
-    
-    <!-- 2nd-section -->
-    <link rel="stylesheet" href="css/section-2-elements.css">
-    <!-- 3rd-section -->
-     <link rel="stylesheet" href="css/section-3-elements.css">
 
+    <!-- css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" integrity="sha512-UJfAaOlIRtdR+0P6C3KUoTDAxVTuy3lnSXLyLKlHYJlcSU8Juge/mjeaxDNMlw9LgeIotgz5FP8eUQPhX1q10A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- sections -->
+    <link rel="stylesheet" href="css/main/section-2-elements.css">    
+    <link rel="stylesheet" href="css/main/section-3-elements.css">
+    <link rel="stylesheet" href="css/main/section-4-elements.css">
 </head>
 <body>
     <div class="nav-bar">
@@ -64,32 +67,33 @@
         </div>        
     </div>
 
-
     <div class="sections">
-        <img src="image/pexels-jplenio-1423601.jpg" class="backgroundImage" alt="">
+        <video class="bg-video" autoplay muted loop>
+            <source src="video/857131-hd_1920_1080_24fps.mp4" type="video/mp4">
+        </video>        
         <div class="card-no-design">
             <div class="card-no-design-header">
                 <h1 class="victoria-word-logo">V</h1> 
                 <h1 class="haven-word-logo">H</h1>                
             </div>
-            <h2 class="h2-slogan diamendRegular-font-justFont">Your escape</span> from the busy world, where <span class="qoutes fasthinRegular-font-70 font-color-orangeGold">relaxation</span> meets <span class="qoutes fasthinRegular-font-70 font-color-orangeGold">elegance</span>.</h2>
+            <h5 class="h2-slogan diamendRegular-font-justFont">Your escape from the busy world, where <span class="qoutes fasthinRegular-font-70 font-color-orangeGold">relaxation</span> meets <span class="qoutes fasthinRegular-font-70 font-color-orangeGold">elegance</span>.</h4>
             <div class="card-no-design-body">
                 <ul class="ul-column-section-2">
-                    <li><a href="ourstory.html">OUR STORY</a></li>
-                    <li style="color: white;">|||</li>
-                    <li><a href="amenities.html">AMENITIES</a></li>
-                    <li style="color: white;">|||</li>
-                    <li><a href="dining.html">DINING</a></li>
-                    <li style="color: white;">|||</li>
-                    <li><a href="accomodation.html">ACCOMMODATIONS</a></li>
+                    <li class="font-style-bold"><a href="ourstory.html">OUR STORY</a></li>
+                    <li class="font-color-orangeGold">|||</li>
+                    <li class="font-style-bold"><a href="amenities.html">AMENITIES</a></li>
+                    <li class="font-color-orangeGold">|||</li>
+                    <li class="font-style-bold"><a href="dining.html">DINING</a></li>
+                    <li class="font-color-orangeGold">|||</li>
+                    <li class="font-style-bold"><a href="accomodation.html">ACCOMMODATIONS</a></li>
                 </ul>
             </div>
         </div>
     </div>
 
-    <div class="sections-black-bg">
+    <div class="sections-h-110">
         <img src="image/pexels-ron-lach-8844599.jpg" class="smallImageLeftSide" alt=""> 
-        <h2 class="section-3-h2-slogan diamendRegular-font-justFont font-color-white">Unpack, unwind, and enjoy the space. Our <a href="#" class="font-remove-text-decoration font-color-orangeGold font-style-italic">rooms</a> are made for true <span class="font-text-align fasthinRegular-font-70 font-color-orangeGold">relaxation</span>.</h2>        
+        <h5 class="section-3-h2-slogan diamendRegular-font-justFont font-color-white">Unpack, unwind, and enjoy the space. Our <a href="accomodation.html" class="font-remove-text-decoration font-color-orangeGold font-style-italic">rooms</a> are made for true <span class="font-text-align fasthinRegular-font-70 font-color-orangeGold">relaxation</span>.</h5>        
         <div class="card-no-design-bottom">
             <ul class="ul-column-section-3">
                 <li><div class="div-container"><img src="image/pexels-jplenio-1423601.jpg" class="smallImage-ul-li-div-zero" alt=""><span class="text diamendRegular-font-16">2nd Floor</span></div></li>
@@ -100,8 +104,20 @@
         </div>
     </div>
 
-    <div class="sections">        
-
+    <div class="sections-black-bg">        
+        <!-- <img src="image/pexels-jplenio-1423601.jpg" class="backgroundImage" alt=""> -->
+        <div class="carousel">              
+            <a class="carousel-item" href="#one!"><img src="#"></a>
+            <a class="carousel-item" href="#two!"><img src="#"></a>
+            <a class="carousel-item" href="#three!"><img src="#"></a>
+            <a class="carousel-item" href="#four!"><img src="#"></a>
+            <a class="carousel-item" href="#five!"><img src="#"></a>
+        </div>
     </div>
+
+    <!-- js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js" integrity="sha512-NiWqa2rceHnN3Z5j6mSAvbwwg3tiwVNxiAQaaSMSXnRRDh5C2mk/+sKQRw8qjV1vN4nf8iK2a0b048PnHbyx+Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
