@@ -18,6 +18,23 @@
     object-fit: cover;
 }
 
+.meduimImageLeftSide{
+    position: absolute;
+    float: left;
+    left: 0;
+    top: 0;
+
+    height: 100%;
+    width: 50vw;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+
+    all: initial;
+}
+
 .smallImage-ul-li-div-zero{
     height: auto;
     width: 20vw;
@@ -25,9 +42,8 @@
     background-size: cover;
     background-position: center;
     object-fit: cover; 
-    transform: perspective(350px) rotate3D(0, 1, 0, 15deg);
-    -webkit-box-reflect: below 2px linear-gradient(transparent, transparent, rgba(0,0,0,0.5));
-    transition: transform .5s, .5s ease-in-out;   
+    transform: perspective(350px) rotate3D(0, 1, 0, 15deg);    
+    transition: transform .5s, .5s ease-in-out;    
 }
 
 
@@ -43,25 +59,9 @@
     background-size: cover;
     background-position: center;
     object-fit: cover;    
-    transform: perspective(350px) rotate3D(0, 1, 0, 25deg);
-    -webkit-box-reflect: below 2px linear-gradient(transparent, transparent, rgba(0,0,0,0.4));
+    transform: perspective(350px) rotate3D(0, 1, 0, 25deg);    
 }
 
-.meduimImageLeftSide{
-    position: absolute;
-    top: 15vh;
-    left: 5vw;
-    float: left;
-
-    height: 70vh;
-    width: 50vw;
-
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    object-fit: cover;  
-    border: 1px solid red;
-}
 
 .image-filter-grayscale{
     filter: grayscale(60%);
@@ -69,4 +69,20 @@
 
 .image-filter-opacity{
     filter: opacity(30%);
+}
+
+.image-filter-reflect-point-5{
+    -webkit-box-reflect: below 2px linear-gradient(transparent, transparent, rgba(0,0,0,0.5));
+}
+
+.image-filter-reflect-point-4{
+    -webkit-box-reflect: below 2px linear-gradient(transparent, transparent, rgba(0,0,0,0.4));
+}
+
+.image-filter-reflect-point-3{
+    -webkit-box-reflect: below 2px linear-gradient(transparent, transparent, rgba(0,0,0,0.3));
+}
+
+.image-filter-reflect-point-25{
+    -webkit-box-reflect: below 2px linear-gradient(transparent, transparent, rgba(0,0,0,0.25));
 }

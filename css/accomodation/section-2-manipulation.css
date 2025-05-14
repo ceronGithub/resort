@@ -1,0 +1,16 @@
+.card
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 80%;
+    height: 80vh;
+
+    border-radius: 8px;
+
+    box-shadow: 5px 5px 10px 0px;
+    /* border: 2px solid red; */
+    
+}
