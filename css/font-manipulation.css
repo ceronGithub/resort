@@ -13,10 +13,40 @@
     src: url(../fonts/hello-paris/bold.ttf);
 }
 
+@font-face{
+    font-family: CormorantGaramond;
+    src: url(../fonts/CormorantGaramond.ttf);
+}
+
 
 .helloParisRegular-font-justFont{
     font-family: helloParisRegular;    
 }
+
+.cormorantGaramond-font-justFont{
+    font-family: CormorantGaramond;    
+}
+
+.fasthinRegular-font-justFont{
+    font-family: fasthinRegular;    
+}
+
+.diamendRegular-font-justFont{
+    font-family: diamendRegular;    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .helloParisRegular-font-8{
     font-family: helloParisRegular;
@@ -49,11 +79,6 @@
 
 
 
-
-.fasthinRegular-font-justFont{
-    font-family: fasthinRegular;    
-}
-
 .fasthinRegular-font-8{
     font-family: fasthinRegular;
     font-size: 8px;
@@ -78,10 +103,6 @@
     font-size: 70px;
 }
 
-
-.diamendRegular-font-justFont{
-    font-family: diamendRegular;    
-}
 
 .diamendRegular-font-8{
     font-family: diamendRegular;
@@ -113,6 +134,33 @@
     font-size: 70px;
 }
 
+.font-size-8{
+    font-size: 8;
+}
+
+.font-size-16{
+    font-size: 16;
+}
+
+.font-size-24{
+    font-size: 24;
+}
+
+.font-size-32{
+    font-size: 32;
+}
+
+.font-size-40{
+    font-size: 40;
+}
+
+.font-size-48{
+    font-size: 48;
+}
+
+.font-size-56{
+    font-size: 56;
+}
 
 .font-color-white{
     color: white;

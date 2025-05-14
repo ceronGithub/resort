@@ -21,19 +21,20 @@
 .meduimImageLeftSide{
     position: absolute;
     float: left;
-    left: 0;
-    top: 0;
+    left: 50%;
+    top: 50%;
 
-    height: 100%;
-    width: 50%;
+    transform: translate(-120%, -50%);
+
+    height: 90%;
+    width: 40%;
 
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     object-fit: cover;
-    
-    border-top-left-radius: 8px;
-    border-bottom-left-radius: 8px;
+
+    border-radius: 8px;
 }
 
 .smallImage-ul-li-div-zero{
