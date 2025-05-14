@@ -55,7 +55,7 @@
     left: 50%;
     padding: 0;
     margin: 0;
-    transform: translate(-35%,-50%);
+    transform: translate(-42%,-50%);
     width: 100%;
     display: flex;
 }
@@ -64,7 +64,7 @@
     list-style: none;
     margin: 0 15px;
     color: rgb(100, 100, 100);
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .card .card-body .second-row h6{
@@ -92,7 +92,7 @@
 
 .card .card-body .third-row ul li{
     list-style: none;
-    margin: 0 5px;    
+    margin: 0 10px;    
     line-height: 40px;
     font-size: 18px;
 }

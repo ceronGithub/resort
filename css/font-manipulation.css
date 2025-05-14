@@ -18,6 +18,9 @@
     src: url(../fonts/CormorantGaramond.ttf);
 }
 
+.lucidaSans-font-justFont{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
 .helloParisRegular-font-justFont{
     font-family: helloParisRegular;    
