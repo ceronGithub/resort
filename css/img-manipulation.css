@@ -25,14 +25,15 @@
     top: 0;
 
     height: 100%;
-    width: 50vw;
+    width: 50%;
 
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     object-fit: cover;
-
-    all: initial;
+    
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
 }
 
 .smallImage-ul-li-div-zero{

@@ -16,8 +16,7 @@ img{
     position: relative; 
     height: 60vh;
     width: 45vw; 
-    object-fit: contain;
-    /* -webkit-box-reflect: below 1px linear-gradient(transparent,transparent, rgba(0,0,0,.25));    */
+    object-fit: contain;    
 }
 
 .accommodation-quote-one{    
