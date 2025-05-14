@@ -1,0 +1,105 @@
+.ul-column-contact-section{
+    position: absolute;
+    width: 80%;
+    height: 10vh; 
+    top: 20%;
+    left: 50%;
+    padding: 0;
+    margin: 0;
+    transform: translate(-50%,-50%);
+    display: flex;  
+    /* border: 2px solid red;    */
+}
+
+.ul-column-contact-section-icons{
+    position: absolute;
+    width: 100%;
+    height: 10vh; 
+    top: 85%;
+    left: 50%;
+    padding: 0;
+    margin: 0;
+    transform: translate(-50%,-50%);
+    display: flex;  
+    /* border: 2px solid red;    */
+}
+
+.ul-column-contact-section ul{
+    position: absolute;    
+    top: 50%;
+    left: 30%;
+    padding: 0;
+    margin: 0;
+    transform: translate(-15%,-50%);
+    display: flex;     
+}
+.ul-column-contact-section-icons ul{
+    position: absolute;    
+    top: 50%;
+    left: 50%;
+    padding: 0;
+    margin: 0;
+    transform: translate(-50%,-50%);
+    display: flex;
+}
+
+.ul-column-contact-section li{
+    list-style: none;
+    margin: 0 15px;
+}
+
+.ul-column-contact-section li a,
+.ul-column-contact-section-icons li a{
+    color: white;       
+    text-decoration: none;
+}
+
+.ul-column-contact-section-icons li{
+    list-style: none;
+    margin: 0 10px;    
+    line-height: 40px;
+    font-size: 18px;
+}
+.ul-column-contact-section-icons li a{ 
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;    
+    transition: .5s ease-in-out;
+    box-shadow: 0 5px 4px rgba(0, 0, 0, .5);
+}
+
+.ul-column-contact-section-icons li a:hover{
+    transform: translate(0, -10px);
+}
+
+.ul-column-contact-section-icons li:nth-child(3) a:hover{
+    background-color: #0099FF;
+}
+
+.ul-column-contact-section-icons li:nth-child(5) a:hover{
+    background-color: #1877F2;
+}
+.ul-column-contact-section-icons li:nth-child(6) a:hover{
+    background-color: #E4405F;
+}
+.ul-column-contact-section-icons li:nth-child(7) a:hover{
+    background-color: #EE1D51;
+}
+
+.ul-column-contact-section-icons .fa-solid{
+    font-size: 25px;
+    line-height: 40px;
+    transition: .6s;
+    color: #000;
+}
+
+.ul-column-contact-section-icons .fa-brands{
+    font-size: 25px;
+    line-height: 43px;
+    transition: .6s;
+    color: #000;
+}
