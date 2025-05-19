@@ -1,0 +1,57 @@
+.picture-frame-1{
+    position: absolute;
+    height: 50vh;
+    width: 25vw;
+    top: 4%;
+    left: 70vw;
+    transform: rotate(10deg);
+    background: #fff;
+    border: 1px solid red;
+    cursor: pointer;
+}
+.picture-frame-1 img{
+    position: relative;
+    height: 48vh;
+    width: 24vw;    
+    top: 2%;
+    left: 1.5%;   
+}
+
+
+
+.picture-frame-2{
+    position: absolute;
+    height: 50vh;
+    width: 25vw;
+    top: 45%;
+    left: 70vw;
+    transform: rotate(-10deg);
+    background: #fff;    
+    cursor: pointer;
+}
+.picture-frame-2 img{
+    position: relative;
+    height: 48vh;
+    width: 24vw; 
+    top: 2%;
+    left: 1.5%;    
+}
+
+.card-circle-section-2{
+    position: absolute;
+    height: 50vh;
+    width: 55vw;
+    top: 12%;
+    left: 40%;
+    transform: translate(-50%, -50%);      
+    text-align: justify;
+    text-justify: inter-word;    
+}
+
+.card-circle-message-section-2{
+    position: absolute;
+    width: 100%;    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

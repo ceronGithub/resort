@@ -1,12 +1,12 @@
 .dot-shape-1{
     position: absolute;
-    top: 80%;
-    left: 85%;
+    top: 25%;
+    left: 80%;
     transform: translate(-50%, -50%);
     background-image: radial-gradient(closest-side, rgba(103, 240, 103, 1), transparent);
     width: 75%;
     height: 150vh;
-    border-radius: 50%;
+    border-radius: 50%;    
 }
 
 .dot-shape-2{
@@ -15,15 +15,15 @@
     left: 5%;
     transform: translate(-50%, -50%);
     background-image: radial-gradient(closest-side, rgba(240,158,5, 1), transparent);
-    width: 75%;
-    height: 150vh;
+    width: 60%;
+    height: 120vh;
     border-radius: 50%;
 }
 
 .card-circle{
     position: absolute;
     top: 50%;
-    left: 3%;
+    left: -5%;
     transform: translate(-50%, -50%);
     background: rgba(255, 255, 255, .05);
     width: 100%;
@@ -36,18 +36,19 @@
 .card-circle .card-circle-message{
     position: absolute;
     top: 50%;
-    left: 77%;
+    left: 82%;
     transform: translate(-50%, -50%);
     text-align: justify;    
-    width: 35%;
+    width: 25%;
 }
 
 #section-1-img{
     position: absolute;
     float: right;
-    top: 15vh;
-    right: 5.5vw;
-    height: 70vh;
-    width: 35vw;
+    top: 50%;
+    left: 73%;
+    transform: translate(-50%, -50%);
+    height: 80vh;
+    width: 45vw;
     border-radius: 50px;
 }
