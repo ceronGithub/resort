@@ -8,26 +8,22 @@
     <link rel="stylesheet" href="css/effect-manipulation.css">
 
     <!-- login-manipulation -->
-    <link rel="stylesheet" href="css/login/section-1.css">
+    <link rel="stylesheet" href="css/reservation/section-1.css">
 </head>
 <body>
     <form action="jquery/create-new-data.php" method="post">
     <table>
         <tr>
             <td>
-                Package
+                Package <span style="color: red;">*</span>
                 <td><input type="text" name="package" id="package"></td>                
             </td>
         </tr>
         <tr>
-            <td>
-                How do you know us
-                <td><input type="text" name="person-who-recommend" placeholder="Enter who recommend us / what social media flatform" required></td>                
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <td>Note: If you know us via social enter the social media. But if you know us via recommendation type the name of person</td>
+            <td style="position: relative; top: -15px;">
+                How do you know us <span style="color: red;">*</span>
+                <td><input type="text" name="person-who-recommend" placeholder="Enter who recommend us / what social media flatform" required>
+                <br><h5 style="color: red;">Note: If you know us via social media enter the social media. But if you know us via recommendation type the name of person</h5></td>                
             </td>
         </tr>
         <tr>
@@ -38,32 +34,32 @@
         </tr>
         <tr>
             <td>
-                Full Name
+                Full Name <span style="color: red;">*</span>
                 <td><input type="text" name="fullname" placeholder="Enter Name" required></td>
             </td>
         </tr>
         <tr>
             <td>
-                Phone Number
+                Phone Number <span style="color: red;">*</span>
                 <td><input type="text" name="phone-number" placeholder="Enter Phone Number" required></td>
             </td>
         </tr>
         <tr>
             <td>
-                Location
+                Location <span style="color: red;">*</span>
                 <td><input type="text" name="location" placeholder="Enter Location" required></td>
             </td>
         </tr>
         <tr>
             <td>
-                Schedule
-                <td><input type="date" name="date" id="date" required="required"> <input type="time" name="time" id="time" required="required"></td>
+                Schedule <span style="color: red;">*</span>
+                <td><input style="position: relative; float: left; left: 50px;"  type="date" name="date" id="date" required="required"> <input style="position: relative; float: left; left: 20px;" type="time" name="time" id="time" required="required"></td>
             </td>
         </tr>
         <tr>
             <td>
-                Sex
-                <td><input type="radio" value="Mr" name="sex" required="required"> Male <input type="radio" value="Mrs" name="sex">Female</td>
+                Sex <span style="color: red;">*</span>
+                <td> <div style="position: relative; float: left; left: 55px;"><input type="radio" value="Mr" name="sex" required="required"> Male</div> <div style="position: relative; float: left; left: 55px;"><input type="radio" value="Mrs" name="sex">Female</div></td>
             </td>
         </tr>        
         <tr>
