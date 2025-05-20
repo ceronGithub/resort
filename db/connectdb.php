@@ -1,16 +1,15 @@
 <?php
     $servername = "localhost";
     $username = "root";
-    $password = "password";
-    $dbname = "resort";
+    $password = "password";    
 
-    $connectionString = new mysqli($servername,$username,$password,$dbname);
+    $connectionString = new mysqli($servername,$username,$password);
 
-    if($connectionString->connect_error)
-    {
-        die("Connection failed: " .$connectionString->connect_error);
-    }
-    else{
-        echo "Connected successfully";
-    }
+    // if($connectionString->connect_error)
+    // {
+    //     die("Connection failed: " .$connectionString->connect_error);
+    // }
+    // else{
+    //     echo "Connected successfully";
+    // }
 ?>
