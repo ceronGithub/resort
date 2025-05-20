@@ -4,9 +4,8 @@
     $username = "root";
     $password = "password";    
 
-    $connectionString = new mysqli($servername,$username,$password);
-
-
+    $connectionString = new mysqli($servername,$username,$password);    
+    
     !empty($_POST["person-who-recommend"]);
     !empty($_POST["gcash"]);
     !empty($_POST["fullname"]);
@@ -16,6 +15,7 @@
     !empty($_POST["time"]);
     !empty($_POST["sex"]);
     !empty($_POST["accepted-terms-and-conditions"]);
+    !empty($_POST["package"]);
 
     $PWR = ($_POST["person-who-recommend"]);
     $gcash = ($_POST["gcash"]);
@@ -25,23 +25,25 @@
     $date = ($_POST["date"]);
     $time = ($_POST["time"]);
     $sex = ($_POST["sex"]);
+    $package = ($_POST["package"]);
     $terms_and_conditions = ($_POST["accepted-terms-and-conditions"]);
     $data_created = date("F j, Y, g:i a");
 
 
-    $query1 = "INSERT INTO resort.client VALUES (0,'$PWR', '$fn', '$pn', '$date', '$time', '$loc', '$sex', '$terms_and_conditions', null, '$data_created')";
-    $query2 = "INSERT INTO resort.`person-who-recommend` VALUES(0,'$PWR', null, 'Package 1', null)";
-
+    $query1 = "INSERT INTO resort.client VALUES (0,'$PWR', '$package','$fn', '$pn', '$date', '$time', '$loc', '$sex', '$terms_and_conditions', null, '$data_created')";
+    if(!empty($gcash)){
+        $query2 = "INSERT INTO resort.`person-who-recommend` VALUES(0,'$PWR', '$gcash', '$package', 800)";
+        $recordData1 = mysqli_query($connectionString, $query2);
+    }
     $recordData = mysqli_query($connectionString, $query1);
-    $recordData1 = mysqli_query($connectionString, $query2);
 
-    if($recordData && $recordData1){
+    if($recordData || $recordData1){
         echo "<script>window.location = 'http://localhost:8080/resort/index.html'</script>";
         exit;
     }
     else
     {
-        echo "<script>window.location = 'http://localhost:8080/resort/login.html'</script>";
+        echo "<script>window.location = 'http://localhost:8080/resort/reservation.html'</script>";
         exit;
     }
     
