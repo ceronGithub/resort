@@ -1,0 +1,139 @@
+.homePage{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: white;
+}
+
+.word-animation{
+    width: 50vw;
+    height: 50vh;     
+
+    /* center div */
+    position: absolute; 
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);  
+    
+    opacity: 1;
+    animation: word-animation-fade-out 11s 10s linear forwards;
+}
+
+
+@font-face {
+    font-family: helloParisRegualr;
+    src: url(../fonts/hello-paris/bold.ttf);
+}
+.word-animation .victoria-word, .haven-word
+{    
+    font-family: helloParisRegualr;
+    font-size: 150px;  
+}
+
+.word-animation .victoria-word{
+    color: black;
+}
+.word-animation .haven-word{
+    color: #F09E05;
+}
+
+
+
+.word-animation .victoria-word
+{
+        /* center h1 */
+        position: absolute; 
+        left: 35%;
+        top: 50%;
+        transform: translate(-0%,-50%);
+        opacity: 0;
+        animation: fade-in 2s .5s ease-in-out forwards, victoria-word-movement 4s 2s linear forwards;
+        z-index: 1;
+}
+
+.word-animation .haven-word
+{
+    /* center h1 */
+    position: absolute; 
+    left: 43.2%;
+    top: 60%;
+    transform: translate(-0%,-50%);
+    opacity: 0;
+    animation: fade-in 2s 1s ease-in-out forwards, haven-word-movement-vertical 3s 2s linear forwards  ,haven-word-movement-horizontal 4s 2s linear forwards;
+}
+
+.word-animation .v-word-fade-effect, .h-word-fade-effect{
+    color: transparent;        
+    
+}
+
+.word-animation .v-word-fade-effect{
+    animation: v-span-change-color 5s 5.5s ease-in-out forwards;
+}
+
+.word-animation .h-word-fade-effect{
+    animation: h-span-change-color 5s 5.5s ease-in-out forwards;
+}
+
+@keyframes fade-in{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes victoria-word-movement{
+    from{
+        transform: translate(-0%,-50%);
+    }
+    to{        
+        transform: translate(-31%,-50%);
+    }
+}
+
+
+@keyframes haven-word-movement-vertical{
+    from{
+        top: 60%;
+    }
+    to{
+        top: 74%;
+    }
+}
+@keyframes haven-word-movement-horizontal{
+    from{        
+        transform: translate(-0%,-50%);
+    }
+    to{                
+        transform: translate(-20%,-50%);
+    }
+}
+
+@keyframes v-span-change-color{
+    from{
+        color: transparent;
+    }
+    to{
+        color: black;
+    }
+}
+
+@keyframes h-span-change-color{
+    from{
+        color: transparent;
+    }
+    to{
+        color: #F09E05;
+    }
+}
+
+@keyframes word-animation-fade-out{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}

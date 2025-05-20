@@ -1,0 +1,32 @@
+.nav-bar{
+    position: fixed;
+    top: 0;
+    width: 10%;
+    height: 10vh;
+    z-index: 1;    
+}
+
+.nav-bar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;    
+    background: transparent;
+    backdrop-filter: blur(50px);    
+}
+.nav-bar ul li{
+    float: right;
+}
+
+.nav-bar ul li a{
+    display: block;    
+    color: white;
+    text-align: center;
+    padding: 30px 35px;
+    text-decoration: none;
+}
+
+.nav-bar ul li:hover a:hover{
+    background-color: #BF9264;
+    color: black;
+}

@@ -1,0 +1,129 @@
+.card
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 80%;
+    height: 80%;
+
+    border-radius: 8px;
+
+    box-shadow: 5px 5px 10px 0px;
+    /* border: 2px solid red; */    
+
+    background: rgb(103, 240, 103);
+}
+.card .card-title{
+    position: absolute;
+    width: 56%;
+    height: 28%;
+    
+    right: 0;
+    top: 0;
+
+    /* border: 1px solid red; */
+}
+.card .card-title h1{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+}
+
+
+.card .card-body{
+    position: absolute;
+    width: 56%;
+    height: 55vh;   
+    top: 28%; 
+    right: 0;
+    /* border: 1px solid red;   */
+}
+
+.card .card-body .first-row{
+    position: relative;
+    width: 100%;
+    height: 5vh;
+    /* border: 1px solid blue; */
+}
+
+.card .card-body .first-row ul{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 0;
+    margin: 0;
+    transform: translate(-42%,-50%);
+    width: 100%;
+    display: flex;
+}
+
+.card .card-body .first-row ul li{
+    list-style: none;
+    margin: 0 15px;
+    color: rgb(100, 100, 100);
+    font-size: 16px;
+}
+
+.card .card-body .second-row h6{
+    position: absolute;
+    width: 75%;    
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+
+.card .card-body .third-row ul{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    padding: 0;
+    margin: 0;
+    transform: translate(-40%,-50%);
+    width: 100%;
+    display: flex;
+}
+
+.card .card-body .third-row ul li{
+    list-style: none;
+    margin: 0 10px;    
+    line-height: 40px;
+    font-size: 18px;
+}
+
+.card .card-body .third-row ul li a{
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;    
+    transition: .5s ease-in-out;    
+    box-shadow: 0 5px 4px rgba(0, 0, 0, .5);
+}
+
+.card .card-body .third-row .fa-brands{
+    font-size: 20px;
+    line-height: 40px;
+    transition: .6s;
+    color: #000;
+}
+
+.card .card-body .third-row ul li a:hover{
+    transform: translate(0, -10px);
+}
+
+.card .card-body .third-row ul li:nth-child(3) a:hover{
+    background-color: #0099FF;
+}
+
+.card .card-body .third-row ul li:nth-child(4) a:hover{
+    background-color: #EE1D51;
+}

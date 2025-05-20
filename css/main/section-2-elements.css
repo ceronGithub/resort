@@ -1,0 +1,90 @@
+@font-face {
+    font-family: fasthinRegualr;
+    src: url(../fonts/Fasthin/FasthinRegular.ttf);
+}
+
+@font-face {
+    font-family: diamendRegular;
+    src: url(../fonts/diamend/DiamenddemoRegular.otf);
+}
+
+.card-no-design{
+    position: absolute;
+    width: 80%;
+    height: 90vh;    
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px 0px;
+    background: transparent;
+    backdrop-filter: blur(5px);
+}
+
+.card-no-design-header{
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    /* border: 1px solid blue; */
+}
+
+
+.h2-slogan{
+    position: absolute;
+    top: 65%;
+    left: 10%;
+    transform: translate(-2.5%, -50%);
+}
+
+.card-no-design-body{
+    position: absolute;
+    top: 70vh;
+    height: 10vh;
+    width: 100%;    
+}
+
+
+.card-no-design-bottom{
+    position: absolute;
+    top: 65vh;
+    left: 0;
+
+    height: 35vh;
+    width: 100%;    
+}
+
+
+@font-face {
+    font-family: helloParisRegualr;
+    src: url(../fonts/hello-paris/bold.ttf);
+}
+.victoria-word-logo, .haven-word-logo
+{    
+    font-family: helloParisRegualr;
+    font-size: 250px; 
+}
+
+.victoria-word-logo{
+    color: black;
+}
+
+.haven-word-logo{
+    color: #F09E05;
+}
+
+h1.victoria-word-logo{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+h1.haven-word-logo{
+    position: absolute;
+    top: 68.8%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+}

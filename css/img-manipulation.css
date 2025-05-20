@@ -1,0 +1,97 @@
+.backgroundImage{
+    position: absolute;    
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;  
+}
+
+
+.smallImageUl-zero{
+    height: 30vh;
+    width: 20vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.meduimImageLeftSide{
+    position: absolute;
+    float: left;
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-110%, -50%);
+
+    height: 90%;
+    width: 40%;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+
+    border-radius: 8px;
+}
+
+.smallImage-ul-li-div-zero{
+    height: auto;
+    width: 20vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover; 
+    transform: perspective(350px) rotate3D(0, 1, 0, 15deg);    
+    transition: transform .5s, .5s ease-in-out;    
+}
+
+
+.smallImageLeftSide{
+    position: absolute;
+    top: 10vh;
+    left: 15vw;
+    float: left;
+
+    height: auto;
+    width: 30vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;    
+    transform: perspective(350px) rotate3D(0, 1, 0, 25deg);    
+}
+
+
+.image-filter-grayscale{
+    filter: grayscale(60%);
+}
+
+.image-filter-opacity{
+    filter: opacity(30%);
+}
+
+.image-filter-reflect-point-5{
+    -webkit-box-reflect: below 2px linear-gradient(transparent, transparent, rgba(0,0,0,0.5));
+}
+
+.image-filter-reflect-point-4{
+    -webkit-box-reflect: below 2px linear-gradient(transparent, transparent, rgba(0,0,0,0.4));
+}
+
+.image-filter-reflect-point-3{
+    -webkit-box-reflect: below 2px linear-gradient(transparent, transparent, rgba(0,0,0,0.3));
+}
+
+.image-filter-reflect-point-25{
+    -webkit-box-reflect: below 2px linear-gradient(transparent, transparent, rgba(0,0,0,0.25));
+}
+
+.image-object-fit{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;  
+}

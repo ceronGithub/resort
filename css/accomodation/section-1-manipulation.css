@@ -1,0 +1,41 @@
+.carousel{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    perspective: 20vw;       
+}
+.carousel .carousel-item{
+    position: absolute;
+    top: -15vh;    
+    height: 60vh;
+    width: 45vw;    
+}
+
+img{
+    position: relative; 
+    height: 60vh;
+    width: 45vw; 
+    object-fit: contain;    
+}
+
+.accommodation-quote-one{    
+    position: absolute;
+    z-index: 1;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80vw;
+    text-align: justify;
+}
+
+.bottom-orange-background{
+    position: absolute;
+    background: #F09E05;
+    width: 61vw;
+    height: 5vh;
+    top: 88.5%;
+    left: 40.5%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+}

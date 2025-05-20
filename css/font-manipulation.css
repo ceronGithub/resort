@@ -1,0 +1,227 @@
+@font-face {
+    font-family: fasthinRegular;
+    src: url(../fonts/Fasthin/FasthinRegular.ttf);
+}
+
+@font-face {
+    font-family: diamendRegular;
+    src: url(../fonts/diamend/DiamenddemoRegular.otf);
+}
+
+@font-face {
+    font-family: helloParisRegular;
+    src: url(../fonts/hello-paris/bold.ttf);
+}
+
+@font-face{
+    font-family: CormorantGaramond;
+    src: url(../fonts/CormorantGaramond.ttf);
+}
+
+.lucidaSans-font-justFont{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.helloParisRegular-font-justFont{
+    font-family: helloParisRegular;    
+}
+
+.cormorantGaramond-font-justFont{
+    font-family: CormorantGaramond;    
+}
+
+.fasthinRegular-font-justFont{
+    font-family: fasthinRegular;    
+}
+
+.diamendRegular-font-justFont{
+    font-family: diamendRegular;    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.helloParisRegular-font-8{
+    font-family: helloParisRegular;
+    font-size: 8px;
+}
+
+.helloParisRegular-font-16{
+    font-family: helloParisRegular;
+    font-size: 16px;
+}
+
+.helloParisRegular-font-24{
+    font-family: helloParisRegular;
+    font-size: 24px;
+}
+
+.helloParisRegular-font-32{
+    font-family: helloParisRegular;
+    font-size: 32px;
+}
+.helloParisRegular-font-70{
+    font-family: helloParisRegular;
+    font-size: 70px;
+}
+
+.helloParisRegular-font-170{
+    font-family: helloParisRegular;
+    font-size: 170px;
+}
+
+
+
+.fasthinRegular-font-8{
+    font-family: fasthinRegular;
+    font-size: 8px;
+}
+
+.fasthinRegular-font-16{
+    font-family: fasthinRegular;
+    font-size: 16px;
+}
+
+.fasthinRegular-font-24{
+    font-family: fasthinRegular;
+    font-size: 24px;
+}
+
+.fasthinRegular-font-32{
+    font-family: fasthinRegular;
+    font-size: 32px;
+}
+.fasthinRegular-font-70{
+    font-family: fasthinRegular;
+    font-size: 70px;
+}
+
+
+.diamendRegular-font-8{
+    font-family: diamendRegular;
+    font-size: 8px;
+}
+
+.diamendRegular-font-12{
+    font-family: diamendRegular;
+    font-size: 12px;
+}
+
+.diamendRegular-font-16{
+    font-family: diamendRegular;
+    font-size: 16px;
+}
+
+.diamendRegular-font-24{
+    font-family: diamendRegular;
+    font-size: 24px;
+}
+
+.diamendRegular-font-32{
+    font-family: diamendRegular;
+    font-size: 32px;
+}
+
+.diamendRegular-font-70{
+    font-family: diamendRegular;
+    font-size: 70px;
+}
+
+.font-size-8{
+    font-size: 8;
+}
+
+.font-size-16{
+    font-size: 16;
+}
+
+.font-size-24{
+    font-size: 24;
+}
+
+.font-size-32{
+    font-size: 32;
+}
+
+.font-size-40{
+    font-size: 40;
+}
+
+.font-size-48{
+    font-size: 48;
+}
+
+.font-size-56{
+    font-size: 56;
+}
+
+.font-size-62{
+    font-size: 62;
+}
+
+
+.font-size-68{
+    font-size: 68;
+}
+
+.font-size-74{
+    font-size: 74;
+}
+
+
+.font-color-white{
+    color: white;
+}
+
+.font-color-black{
+    color: black;
+}
+
+.font-color-orangeGold{
+    color: #F09E05;
+}
+
+
+
+.font-style-italic{
+    font-style: italic;
+}
+
+.font-style-oblique{
+    font-style: oblique;
+}
+
+.font-style-bold{
+    font-weight: bold;
+}
+
+
+
+
+.font-text-align{
+    position: relative;
+    top: 10px;
+    padding: 0 5px;
+}
+
+.font-remove-text-decoration{
+    text-decoration: none;
+}
+
+.font-text-indent{
+    text-indent: 10%;
+}
+
+.font-text-indent-20{
+    text-indent: 20%;
+}
