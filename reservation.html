@@ -7,77 +7,63 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/effect-manipulation.css">
 
+    <!-- import css -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/themes/vader/jquery-ui.css" rel="stylesheet"/>
+
     <!-- login-manipulation -->
     <link rel="stylesheet" href="css/reservation/section-1.css">
 </head>
-<body>
+<body>        
     <form action="jquery/create-new-data.php" method="post">
-    <table>
-        <tr>
-            <td>
-                Package <span style="color: red;">*</span>
-                <td><input type="text" name="package" id="package"></td>                
-            </td>
-        </tr>
-        <tr>
-            <td style="position: relative; top: -15px;">
-                How do you know us <span style="color: red;">*</span>
-                <td><input type="text" name="person-who-recommend" placeholder="Enter who recommend us / what social media flatform" required>
-                <br><h5 style="color: red;">Note: If you know us via social media enter the social media. But if you know us via recommendation type the name of person</h5></td>                
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Contact
-                <td><input type="text" name="gcash" placeholder="If you know us via recommendation enter the phone number of that person"></td>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Full Name <span style="color: red;">*</span>
-                <td><input type="text" name="fullname" placeholder="Enter Name" required></td>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Phone Number <span style="color: red;">*</span>
-                <td><input type="text" name="phone-number" placeholder="Enter Phone Number" required></td>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Location <span style="color: red;">*</span>
-                <td><input type="text" name="location" placeholder="Enter Location" required></td>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Schedule <span style="color: red;">*</span>
-                <td><input style="position: relative; float: left; left: 50px;"  type="date" name="date" id="date" required="required"> <input style="position: relative; float: left; left: 20px;" type="time" name="time" id="time" required="required"></td>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Sex <span style="color: red;">*</span>
-                <td> <div style="position: relative; float: left; left: 55px;"><input type="radio" value="Mr" name="sex" required="required"> Male</div> <div style="position: relative; float: left; left: 55px;"><input type="radio" value="Mrs" name="sex">Female</div></td>
-            </td>
-        </tr>        
-        <tr>
-            <td>                
-                <td><input type="radio" name="accepted-terms-and-conditions" value="Understood" required="required">Have read and understand the terms and conditions                    
-                </td>
-            </td>
-        </tr>
-            <td>
-                <td><a href="jquery/create-new-data.php"><input type="submit" name="submit"></a> <a href="index.html" type="button">Homepage</a>                    
-                </td>
-            </td>
-        </tr>
-    </table>
+        <div class="card">
+            <div class="row">
+                <div class="columns-label">Package</div> 
+                <div class="columns"><input type="text" id="package" name="package" required></div>               
+            </div>
+            <div class="row">
+                <div class="columns-label">How do you know us?</div> 
+                <div class="columns"><input type="text" class="input-width-80" name="person-who-recommend" placeholder="Enter who recommend us / what social media flatform" required>                    
+                </div>               
+            </div>
+            <div class="row">
+                <div class="columns-label">Contact no. of who recommend us.</div> 
+                <div class="columns"><input type="text" class="input-width-80" name="gcash" placeholder="If you know us via recommendation enter the phone number of that person">
+                </div>               
+            </div>
+            <div class="row">
+                <div class="columns-label">Fullname</div>
+                <div class="columns"><input type="text" name="fullname" placeholder="Enter Name" required></div>
+            </div>
+            <div class="row">
+                <div class="columns-label">Phone Number</div>
+                <div class="columns"><input type="text" name="phone-number" placeholder="Enter Phone Number" required></div>
+            </div>
+            <div class="row">
+                <div class="columns-label">Location</div>
+                <div class="columns"><input type="text" name="location" placeholder="Enter Location" required></div>
+            </div>            
+            <div class="row">
+                <div class="columns-label">Schedule (Start-date)</div> 
+                <div class="columns"><input type="text" name="date0" id="date0"><input type="time" name="time0" id="time0"></div>               
+            </div>
+            <div class="row">
+                <div class="columns-label">Schedule (End-date)</div> 
+                <div class="columns"><input type="text" name="date1" id="date1"><input type="time" name="time1" id="time1"></div>               
+            </div>
+            <div class="row">
+                <div class="columns-label">Sex</div>
+                <div class="columns"><div style="float: left; left: 0;"> <input type="radio" value="Mr" name="sex" required="required"> Male <span  style="margin: 0 10px;"></span> <input type="radio" value="MRS" name="sex" required="required"> Female <span  style="margin: 0 10px;"></span> <input type="radio" name="accepted-terms-and-conditions" value="Understood" required="required">Have read and understand the terms and conditions</div> 
+                </div>
+            </div>    
+            <div class="row">                
+                <div class="columns"><a href="jquery/create-new-data.php"><input type="submit" name="submit"></a> <a href="index.html" type="button">Homepage</a></div>
+            </div>                    
+        </div>
     </form>
+    
     <!-- import js -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js" integrity="sha512-NiWqa2rceHnN3Z5j6mSAvbwwg3tiwVNxiAQaaSMSXnRRDh5C2mk/+sKQRw8qjV1vN4nf8iK2a0b048PnHbyx+Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
     <script src="js/reservation.js"></script>
 </body>
 </html>

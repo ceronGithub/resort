@@ -1,36 +1,70 @@
-table
-  {
-    position: absolute;
-    top: 50%;
-    left: 50%;    
-    width: 70%;
-
-    transform: translate(-50%, -50%);
-    border: 1px solid #ccc;
-    border-radius: 8px;
+.card {
+  position: absolute;
+  width: 70vw;
+  height: 90vh;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #aaa3a3;
 }
 
-tr, td{
-  /* border: 1px solid red; */
+.row{
+  display: flex;
+  width: 100%;
+  height: 9vh;
+  /* border: 1px solid green; */
+}
+
+.columns-label{
+  position: relative;
+  left: 15%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 30%;
+  height: 10vh;
+  /* border: 1px solid rebeccapurple; */
+  line-height: 65px;
   text-align: center;
-  width: 5vw;
 }
-input[type=text] {
-  width: 80%;
-  padding: 10px 10px;
-  margin: 8px 5px;
+
+.columns{
+  position: relative;
+  left: 35%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  height: 10vh;
+  /* border: 1px solid rebeccapurple; */
+  line-height: 65px;
+  text-align: center;
+}
+
+input[type=text]{
+  float: left;
+  left: 0px;
+  width: 50%;
+  padding: 10px 0;
+  margin: 12px 0;
   border: 1px solid #ccc;
   border-radius: 8px;
+  text-align: center;
   box-sizing: border-box;
 }
 
-input[type=radio], input[type=date], input[type=time], input[type=submit]{
-  padding: 8px 20px;
-  margin: 10px 20px;
+.input-width-80{
+  width: 82% !important;
 }
 
-input[type=date], input[type=time]{
-  padding: 10px 20px;
+input[type=time]{
+  position: relative;  
+  float: left;
+  left: 0;
+  width: 30%;
+  padding: 8px 0;
+  margin: 12px 5px;
   border: 1px solid #ccc;
   border-radius: 8px;
+  text-align: center;
+  box-sizing: border-box;
 }
+
